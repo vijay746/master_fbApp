@@ -7,7 +7,7 @@ func GetPost(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetPostById(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("hi this is for getiing a post by its ID ."))
+	w.Write([]byte("hi this is for getiing a post by its ID."))
 }
 
 func CreatePost(w http.ResponseWriter, r *http.Request) {
